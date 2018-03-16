@@ -236,6 +236,7 @@
 label game_pong:
     hide screen keylistener
     m 1a "You wanna play a game of Pong? Okay!"
+    m 1a "But I love to play with you! <3"
 #    m 1b "I'll beat you for sure this time!" # this line is useless
     call demo_minigame_pong from _call_demo_minigame_pong
     return
